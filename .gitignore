@@ -1,2 +1,11 @@
 node_modules
 dist
+
+# IDE
+.idea/
+.vscode
+*.iws
+
+# compile codes
+*-compiled.js*
+*.orig
