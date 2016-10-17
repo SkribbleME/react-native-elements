@@ -119,12 +119,12 @@ const Button = ({
           secondary3 && {backgroundColor: colors.secondary3},
           primary1 && {backgroundColor: colors.primary1},
           primary2 && {backgroundColor: colors.primary2},
+          disabled && {backgroundColor: colors.disabled},
           backgroundColor && {backgroundColor: backgroundColor},
           borderRadius && {borderRadius},
           buttonStyle && buttonStyle,
           raised && styles.raised,
           small && styles.small,
-          disabled && {backgroundColor: colors.disabled}
         ]}
         >
         {
